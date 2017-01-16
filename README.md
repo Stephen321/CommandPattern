@@ -6,3 +6,6 @@ Space == W == Up Arrow
 e.g Press W = std::cout << "Jump"
 Each command/keystroke recorded in macro.
 Hitting backspace calls undo.
+
+
+Have map in order to look up key binding. (So you know Space == W == Up)
