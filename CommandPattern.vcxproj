@@ -76,13 +76,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="MacroCommand.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Renderer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="CrouchCommand.h" />
+    <ClInclude Include="ExitCommand.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="JumpCommand.h" />
+    <ClInclude Include="MacroCommand.h" />
+    <ClInclude Include="MoveLeftCommand.h" />
+    <ClInclude Include="MoveRightCommand.h" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="Levels.xml">
